@@ -1,0 +1,13 @@
+#!/bin/sh
+
+cd /Library/LaunchDaemons
+launchctl unload com.apple.sharingd.plist
+
+declare -a cydia
+cydia=($CYDIA)
+
+if [[ $1 == install || $1 == upgrade ]]; then
+    if [[ ${CYDIA+@} ]]; then
+        eval "echo 'finish:restart' >&${cydia[0]}"
+    fi
+fi

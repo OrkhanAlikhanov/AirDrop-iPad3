@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /Library/LaunchDaemons
+launchctl load com.apple.sharingd.plist

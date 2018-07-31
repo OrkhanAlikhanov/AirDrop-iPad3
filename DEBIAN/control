@@ -1,0 +1,11 @@
+Package: com.orkhanalikhanov.airdropforipad
+Name: AirDrop Enabler iOS 9.3.5 iPad
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Enable AirDrop on iOS 9.3.5. Only for Airdrop-non compatible device.
+Author: Orkhan Alikhanov
+Homepage: https://github.com/OrkhanAlikhanov/AirDrop-iPad3
+Depiction: https://github.com/OrkhanAlikhanov/AirDrop-iPad3/README.md
+Maintainer: Orkhan Alikhanov <orkhan.alikhanov@gmail.com>
+Section: System
